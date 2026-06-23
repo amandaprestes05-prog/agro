@@ -1,1 +1,71 @@
+body {
+    background-color: #FFFFFF; /* Fundo Branco */
+    color: #5D4037; /* Letras Marrons */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 
+header {
+    background-color: #8BC34A; /* Verde Claro */
+    padding: 30px;
+    border-bottom: 8px solid #FFEB3B; /* Faixa Amarela */
+}
+
+h1 {
+    color: #1B5E20; /* Verde Escuro */
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #388E3C; 
+}
+
+.container {
+    padding: 50px 20px;
+}
+
+.btn-interativo {
+    background-color: #4CAF50; /* Verde */
+    color: #FFFFFF; 
+    border: 3px solid #388E3C;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.btn-interativo:hover {
+    background-color: #388E3C;
+    transform: scale(1.05);
+}
+
+#info-agricultura {
+    display: none; 
+    background-color: #E3F2FD; /* Azul claro */
+    border: 3px solid #2196F3; /* Borda Azul */
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 30px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.info-titulo {
+    color: #1B5E20; 
+    border-bottom: 2px solid #FFEB3B; 
+    padding-bottom: 10px;
+}
+
+ul {
+    line-height: 1.8;
+    font-size: 1.1em;
+}
