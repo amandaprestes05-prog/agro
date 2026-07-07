@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultura Familiar Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Semeando o Futuro</h1>
+    </header>
+
+    <div class="container">
+        <h2>Descubra a força que vem da terra!</h2>
+        <p>A natureza precisa de nós, e nós precisamos dela.</p>
+        
+        <button class="btn-interativo" onclick="mostrarInformacoes()">Por que a Agricultura Familiar importa?</button>
+
+        <div id="info-agricultura">
+            <h3 class="info-titulo">O que devemos cuidar?</h3>
+            <ul>
+                <li><strong>O Solo:</strong> Evitar o uso excessivo de produtos químicos e focar em adubação orgânica para manter a terra rica e viva.</li>
+                <li><strong>A Água:</strong> Proteger as nascentes, não poluir os rios e usar sistemas de irrigação que não desperdicem.</li>
+                <li><strong>As Sementes:</strong> Preservar as sementes tradicionais (crioulas), que são mais resistentes e adaptadas ao nosso clima.</li>
+            </ul>
+
+            <h3 class="info-titulo">A Importância da Agricultura Familiar</h3>
+            <p>
+                Você sabia que a maior parte da comida que chega à nossa mesa todos os dias vem da agricultura familiar? 
+                Ela não apenas garante a nossa segurança alimentar com alimentos mais frescos e saudáveis, como também é o motor da economia em várias cidades do interior.
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
